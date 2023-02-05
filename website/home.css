@@ -1,0 +1,80 @@
+*{
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-500px)
+    }
+    to{
+        transform: translateX(0px);
+    }
+    
+}
+@keyframes backgroundEaseIn {
+    from{
+        opacity: 0%;
+
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.square{
+    width: 50%;
+    height: 80%;    
+    background-color: #FFF2F2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+    border-radius: 20%;
+}
+.words
+{   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.clickDiv{
+    margin-top: 10px;
+}
+.click-button{
+    background-color:lightblue;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 10%;
+    font-size: 40px;
+}
+.click-button:hover{
+    opacity: 1;
+    transform: translateY(10px);
+}
+h1{
+    font-size: 50px;
+    animation: slideInLeft;
+    animation-duration: 1s;
+    animation-delay: 0.2;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+}
+h2{
+    font-size: 25px;
+}
+.my-site
+{
+    font-size: 35px;
+}
+body {
+    background-color: black;
+    animation: backgroundEaseIn;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+html{
+    background-image: url("background-2.jpg");
+    background-size: cover;
+    background-position: top left;
+}

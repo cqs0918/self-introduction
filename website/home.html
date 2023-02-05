@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+    要有home : 名字、圖片
+        About me : 興趣、經歷
+        skills : c++、python、Linux、c
+        Links : github、IG、FB、DC
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cqs' s site</title>
+    <link rel="website icon" href="icon.jpg">
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+</head>
+<body>
+    <div id="squarePlusWord">
+        <div class="square"></div>
+        <div class="words">
+        <h2 class="hi">Hi!</h2>
+        <h1>I'm CQS.</h1>
+        <span class="my-site">Welcome to my site.</span>
+        <br/>
+            <div class="clickDiv">
+                <span class="click-button" id="click-home">BLOG</span>
+                <span class="click-button" id="click-about" onclick="jumpToAbout()">About me</span>
+                <span class="click-button" id="click-links" onclick="jumpToLinks()">Links</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

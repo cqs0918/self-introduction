@@ -1,0 +1,72 @@
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+@keyframes backgroundEaseIn {
+    from{
+        opacity: 0%;
+
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.square{
+    width: 50%;
+    height: 80%;
+    background-color: #FFF2F2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+    border-radius: 20%;
+}
+body {
+    background-image: url("background-2.jpg");
+    background-size: cover;
+}
+.words{
+    position: absolute;
+    top: 49%;
+    left:41%;
+    transform: translate(-50%,-50%);
+}
+.p-title{
+    font-size: 30px;
+    margin: 10px 0px 5px 0px;
+    font-weight: bold;
+}
+.p-aboutMe{
+    margin: 20px 0px 5px 0px;
+    font-size: 45px;
+}
+.back{
+    position: absolute;
+    top: 15.5%;
+    right: 30%;
+    opacity: 0.3;
+}
+.back:hover{
+    border-radius: 100%;
+    background-color: #FFF2F2;
+    opacity: 0.5;
+    
+    cursor: pointer;
+}
+.span-name{
+    font-weight: bold;
+}
+.p-content{
+    font-size: 17px;
+    font-weight:bolder;
+    text-decoration: underline;
+}
+body {
+    background-color: black;
+    animation: backgroundEaseIn;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
